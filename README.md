@@ -11,8 +11,25 @@ Conflicts between sources are preserved and shown explicitly for transparency.
 
 ---
 
-## ⚙️ How to Run
+## ⚙️ How to Run with Docker
 
+Navigate to your project root and Run both services with below one command
+
+docker compose up --build
+
+## Access services
+
+Backend API → http://localhost:8000
+Frontend UI → http://localhost:3000
+
+Stop services  
+Press Ctrl + C in the terminal, then clean up containers with below command:
+
+docker compose down
+
+
+## ⚙️ How to Run without Docker (seprately
+)
 ### Backend (FastAPI)
 1. Navigate to the backend folder:
    ```bash
